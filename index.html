@@ -6,39 +6,78 @@
     
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
 
     <title>WildStyle Productions</title>
     <link rel="stylesheet" href="styles.css">
 
-
-    <!-- <style>
-      .attribution {  font-size: 11px; text-align: center;  }
-      .attribution a {  color: hsl(228, 45%, 44%);  }
-    </style> -->
-
   </head>
   <body>
+    <!-- NAV BAR SECTION -->
+    <nav class="navbar">
+      <div class="navbar_container">
+        <div class="navbar__logo1">
+          <img src="/images/WSLogo2.png" alt="WildStyle Gym" height="75px" width="75px">
+        </div>
+        <a href="/" id="navbar__logo">
+          WS Productions</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">
+              Home
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a href="/AboutUs" class="navbar__links">
+              About Us
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a href="/Events" class="navbar__links">
+              Events
+            </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/" class="button">Fighter Registration</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <header class="header">
-      <nav class="flex flex-jc-sb">
-        <a href="/" class="header__logo">
-          <img src="images/WSlogo.svg" alt="WildStyleProductions"  width="150px" height="150px"/>
-        </a>
+    <!-- MAIN SECTION -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>WildStyle Productions</h1>
+          <h2>Local Event Promoter</h2>
+          <p>Welcome to WildStyle Fight Promotions! We specialize in organizing Grappling, Kickboxing, MMA Competitions for amatuer and experienced fighters.  </p>
+        </div>
 
-        <a href="#" class="header__navMenu">
-         <span></span>
-         <span></span>
-         <span></span>
-        </a>
-      </nav>
-    </header>
-    <h1>Hello</h1>
-    Home
-    About
-    Contact
-    Events
-    Fighter Registration
 
-    <script src="/app/js/script.js"></script>
+        <div class="main__img-container">
+          <img src="images/FightPoster_7-9.jpg" alt="Fight Poster" id="main__img">
+        </div>
+          <!-- Get Tickets Button -->
+          <button class="main__btn"><a href="/">Get Tickets</a></button>
+
+          <!-- Contact Us -->
+          <div class="contact-us-form">
+              Contact form
+        </div>
+        
+      </div>
+      </div>
+
+    </div>
+  
+    <script src="app.js"></script>
   </body>
 </html>
